@@ -1,0 +1,19 @@
+{
+    "name": "hatebu-button",
+    "version": "0.0.0",
+    "description": "hatebu",
+    "license": "MIT",
+    "main": "dist/hatebu-button.html",
+    "keywords": [
+        "polymer",
+        "web-components"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "polymer": "Polymer/polymer#~0.3.3"
+    }
+}
