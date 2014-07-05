@@ -1,6 +1,6 @@
 # &lt;hatebu-button&gt;
 
-> hatebu
+> Web Component wrapper for Hatena Bookmark's button using Polymer
 
 ## Demo
 
