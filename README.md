@@ -35,13 +35,15 @@ Or [download as ZIP](https://github.com/nekova/hatebu-button/archive/master.zip)
     ```html
     <hatebu-button></hatebu-button>
     <hatebu-button simple></hatebu-button>
+    <hatebu-button href="https://github.com" title="GitHub"></hatebu-button>
+    <hatebu-button simple href="https://github.com" title="GitHub"></hatebu-button>
     ```
 
 ## Options
 
 Attribute     | Options     | Default      | Description
 ---           | ---         | ---          | ---
-`simple`      |    | `false`      | Simple baloon
+`simple`      |    | `false`      | Simple balloon
 
 ## Development
 
