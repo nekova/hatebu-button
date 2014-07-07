@@ -1,12 +1,13 @@
 <link rel="import" href="../../polymer/polymer.html">
 
-<polymer-element name="hatebu-button" attributes="href title baloon">
+<polymer-element name="hatebu-button" attributes="href title simple">
     <script>
         Polymer('hatebu-button', {
-            href : 'http://customelements.io',
-            title: 'customeelements',
-            baloon: 'standard-balloon',
-
+            publish: {
+                href : 'http://customelements.io',
+                title: 'customeelements',
+                simple: {value: false, reflect: true},
+            },
             ready: function () {
                 var script = document.createElement("script"),
                     a = document.createElement("a"),
@@ -14,9 +15,11 @@
 
                 a.setAttribute("href", "http://b.hatena.ne.jp/entry/" + this.href);
                 a.setAttribute("class", "hatena-bookmark-button");
-                a.setAttribute("data-hatena-bookmark-layout", this.baloon);
                 a.setAttribute("data-hatena-bookmark-title", this.title);
-                if (this.baloon === 'standard-baloon'){
+                if (this.simple){
+                    a.setAttribute("data-hatena-bookmark-layout", "simple-balloon");
+                }else{
+                    a.setAttribute("data-hatena-bookmark-layout", "standard-balloon");
                     a.setAttribute("data-hatena-bookmark-lang", "ja");
                 }
                 a.setAttribute("title", 'このエントリーをはてなブックマークに追加');

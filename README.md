@@ -34,26 +34,14 @@ Or [download as ZIP](https://github.com/nekova/hatebu-button/archive/master.zip)
 
     ```html
     <hatebu-button></hatebu-button>
-    <hatebu-button baloon="simple-baloon"></hatebu-button>
+    <hatebu-button simple></hatebu-button>
     ```
 
 ## Options
 
 Attribute     | Options     | Default      | Description
 ---           | ---         | ---          | ---
-`foo`         | *string*    | `bar`        | Lorem ipsum dolor.
-
-## Methods
-
-Method        | Parameters   | Returns     | Description
----           | ---          | ---         | ---
-`unicorn()`   | None.        | Nothing.    | Magic stuff appears.
-
-## Events
-
-Event         | Description
----           | ---
-`onsomething` | Triggers when something happens.
+`simple`      |    | `false`      | Simple baloon
 
 ## Development
 
