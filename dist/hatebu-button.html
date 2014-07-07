@@ -3,9 +3,9 @@
 <polymer-element name="hatebu-button" attributes="href title simple">
     <script>
         Polymer('hatebu-button', {
+            href: location.href,
+            title: document.querySelector('title').text,
             publish: {
-                href : 'http://customelements.io',
-                title: 'customeelements',
                 simple: {value: false, reflect: true},
             },
             ready: function () {
