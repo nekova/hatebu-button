@@ -35,14 +35,18 @@ Or [download as ZIP](https://github.com/nekova/hatebu-button/archive/master.zip)
     ```html
     <hatebu-button></hatebu-button>
     <hatebu-button simple></hatebu-button>
-    <hatebu-button href="https://github.com" title="GitHub"></hatebu-button>
-    <hatebu-button simple href="https://github.com" title="GitHub"></hatebu-button>
+    <hatebu-button simple balloon="false"></hatebu-button>
+    <hatebu-button simple title="GitHub"></hatebu-button>
+    <hatebu-button href="https://github.com"></hatebu-button>
+    <hatebu-button href="https://github.com" title="GitHub" balloon="vertical"></hatebu-button>
     ```
 
 ## Options
 
 Attribute     | Options     | Default      | Description
 ---           | ---         | ---          | ---
+`href`      |  string  |       | Automatically set current page's url
+`title`      |  string  |        | Automatically set current page's title
 `simple`      |    | `false`      | Simple balloon or not
 `balloon`      | "vertical", "false"  | ""      | The type of balloon. "false" means `noballoon`.
 
