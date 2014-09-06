@@ -1,6 +1,6 @@
 {
     "name": "hatebu-button",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "hatebu",
     "license": "MIT",
     "main": "dist/hatebu-button.html",
