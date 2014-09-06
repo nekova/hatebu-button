@@ -43,7 +43,8 @@ Or [download as ZIP](https://github.com/nekova/hatebu-button/archive/master.zip)
 
 Attribute     | Options     | Default      | Description
 ---           | ---         | ---          | ---
-`simple`      |    | `false`      | Simple balloon
+`simple`      |    | `false`      | Simple balloon or not
+`balloon`      | "vertical" and "false"  | ""      | The type of balloon. "false" means `noballoon`.
 
 ## Development
 
